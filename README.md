@@ -8,6 +8,8 @@ Code and carts for our workshops in here.
 2. Install [just](https://just.systems/)
    1. For mac users `brew install just` will do the trick
 
+This is using [https://github.com/micktwomey/pico-8-carts-justfile](https://github.com/micktwomey/c) for the just recipes.
+
 # Getting help
 
 1. `just help`

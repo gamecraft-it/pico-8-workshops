@@ -79,7 +79,7 @@ function load_cartridges(path)
 end
 
 function _init()
-  log("_init()")
+  reset_log("_init()")
   cart_data = CartData:new()
   if not cart_data:load() then
     cart_data:init()
