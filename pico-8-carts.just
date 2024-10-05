@@ -39,4 +39,8 @@ export:
   set -euo pipefail
 
   mkdir -p "{{carts_folder}}"
-  rsync -n -mzarv --exclude="demos/*" --include="*/" --include="*.p8" --include="*.p8.png" --include="*.lua" --exclude="*" "./carts/" "{{carts_folder}}/"
+  rsync -mzarv --exclude="demos/*" --include="*/" --include="*.p8" --include="*.p8.png" --include="*.lua" --exclude="*" "./carts/" "{{carts_folder}}/"
+
+# Show a diff between the code here and PICO-8
+diff:
+  diff -ur carts/ "{{carts_folder}}"
