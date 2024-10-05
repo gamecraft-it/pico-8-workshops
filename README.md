@@ -16,6 +16,7 @@ Code and carts for our workshops in here.
 
 1. `just import`
 2. `git add` and `git commit`
+   1. Tip: if there are carts you want to ignore add `carts/cartname.p8` to the [.gitignore](.gitignore) file.
 
 # Exporting code
 
